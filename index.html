@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="A special birthday wish for Tapati — 16 December.">
+    <meta name="theme-color" content="#FFEAF3">
+
+    <title>A Special Wish For Tapati</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================================
+         Decorative Background
+    ================================= -->
+
+    <div class="background-decoration" aria-hidden="true">
+        <span class="glow-circle glow-one"></span>
+        <span class="glow-circle glow-two"></span>
+        <span class="glow-circle glow-three"></span>
+
+        <div class="particles"></div>
+        <div class="floating-hearts"></div>
+    </div>
+
+
+    <!-- ================================
+         Navigation
+    ================================= -->
+
+    <header class="site-header" id="siteHeader">
+        <nav class="navbar container" aria-label="Main navigation">
+
+            <a href="#home" class="brand">
+                Tapati<span>.</span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="navMenu"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-menu" id="navMenu">
+                <a href="#home">Home</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#video">Video</a>
+                <a href="#quotes">Quotes</a>
+                <a href="#message">Message</a>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- ================================
+             HERO
+        ================================= -->
+
+        <section class="hero section" id="home">
+
+            <div class="hero-content container">
+
+                <div class="hero-text reveal-scale">
+
+                    <span class="eyebrow">
+                        A Little Birthday Surprise
+                    </span>
+
+                    <h1>
+                        Happy Birthday,
+                        <span>Tapati</span>
+                    </h1>
+
+                    <div class="birthday-date">
+                        <span class="date-line"></span>
+                        <span>16 December</span>
+                        <span class="date-line"></span>
+                    </div>
+
+                    <p class="hero-description">
+                        Today is not just another day,
+                        it is the celebration of someone truly special.
+                    </p>
+
+                    <a href="#gallery" class="primary-button">
+                        <span>Open the Surprise</span>
+                        <span class="button-arrow">↓</span>
+                    </a>
+
+                </div>
+
+
+                <div class="hero-image-wrapper reveal">
+                    <div class="portrait-decoration decoration-one"></div>
+                    <div class="portrait-decoration decoration-two"></div>
+
+                    <div class="portrait-frame">
+
+                        <div class="portrait-glow"></div>
+
+                        <div class="portrait-image">
+                            <img
+                                src="tapati.jpg"
+                                alt="Portrait of Tapati"
+                                fetchpriority="high"
+                            >
+                        </div>
+
+                        <span class="portrait-heart" aria-hidden="true">♡</span>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="scroll-indicator" aria-hidden="true">
+                <span>Scroll to discover</span>
+                <span class="scroll-line"></span>
+            </div>
+
+        </section>
+
+
+        <!-- ================================
+             GALLERY
+        ================================= -->
+
+        <section class="gallery-section section" id="gallery">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-label">A Little Collection</span>
+
+                    <h2>
+                        Beautiful <span>Moments</span>
+                    </h2>
+
+                    <p>
+                        A few beautiful pictures for a beautiful person.
+                    </p>
+                </div>
+
+
+                <div class="gallery-grid">
+
+                    <article class="gallery-item gallery-large reveal-scale">
+                        <button
+                            class="gallery-button"
+                            type="button"
+                            data-index="0"
+                            aria-label="Open photo 1"
+                        >
+                            <img
+                                src="photo1.jpg"
+                                alt="Tapati - photo 1"
+                                loading="lazy"
+                            >
+                            <span class="image-overlay">
+                                <span class="view-icon">+</span>
+                            </span>
+                        </button>
+                    </article>
+
+
+                    <article class="gallery-item reveal">
+                        <button
+                            class="gallery-button"
+                            type="button"
+                            data-index="1"
+                            aria-label="Open photo 2"
+                        >
+                            <img
+                                src="photo2.jpg"
+                                alt="Tapati - photo 2"
+                                loading="lazy"
+                            >
+                            <span class="image-overlay">
+                                <span class="view-icon">+</span>
+                            </span>
+                        </button>
+                    </article>
+
+
+                    <article class="gallery-item gallery-tall reveal-right">
+                        <button
+                            class="gallery-button"
+                            type="button"
+                            data-index="2"
+                            aria-label="Open photo 3"
+                        >
+                            <img
+                                src="photo3.jpg"
+                                alt="Tapati - photo 3"
+                                loading="lazy"
+                            >
+                            <span class="image-overlay">
+                                <span class="view-icon">+</span>
+                            </span>
+                        </button>
+                    </article>
+
+
+                    <article class="gallery-item reveal-left">
+                        <button
+                            class="gallery-button"
+                            type="button"
+                            data-index="3"
+                            aria-label="Open photo 4"
+                        >
+                            <img
+                                src="photo4.jpg"
+                                alt="Tapati - photo 4"
+                                loading="lazy"
+                            >
+                            <span class="image-overlay">
+                                <span class="view-icon">+</span>
+                            </span>
+                        </button>
+                    </article>
+
+
+                    <article class="gallery-item reveal-scale">
+                        <button
+                            class="gallery-button"
+                            type="button"
+                            data-index="4"
+                            aria-label="Open photo 5"
+                        >
+                            <img
+                                src="photo5.jpg"
+                                alt="Tapati - photo 5"
+                                loading="lazy"
+                            >
+                            <span class="image-overlay">
+                                <span class="view-icon">+</span>
+                            </span>
+                        </button>
+                    </article>
+
+
+                    <article class="gallery-item gallery-wide reveal">
+                        <button
+                            class="gallery-button"
+                            type="button"
+                            data-index="5"
+                            aria-label="Open photo 6"
+                        >
+                            <img
+                                src="photo6.jpg"
+                                alt="Tapati - photo 6"
+                                loading="lazy"
+                            >
+                            <span class="image-overlay">
+                                <span class="view-icon">+</span>
+                            </span>
+                        </button>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================
+             LIGHTBOX
+        ================================= -->
+
+        <div
+            class="lightbox"
+            id="lightbox"
+            role="dialog"
+            aria-modal="true"
+            aria-label="Image viewer"
+            aria-hidden="true"
+        >
+
+            <button
+                class="lightbox-close"
+                id="lightboxClose"
+                type="button"
+                aria-label="Close image viewer"
+            >
+                ×
+            </button>
+
+            <button
+                class="lightbox-control lightbox-prev"
+                id="lightboxPrev"
+                type="button"
+                aria-label="Previous image"
+            >
+                ‹
+            </button>
+
+            <div class="lightbox-content">
+                <img
+                    id="lightboxImage"
+                    src=""
+                    alt="Expanded gallery image"
+                >
+            </div>
+
+            <button
+                class="lightbox-control lightbox-next"
+                id="lightboxNext"
+                type="button"
+                aria-label="Next image"
+            >
+                ›
+            </button>
+
+            <div class="lightbox-counter" id="lightboxCounter">
+                1 / 6
+            </div>
+
+        </div>
+
+
+        <!-- ================================
+             VIDEO
+        ================================= -->
+
+        <section class="video-section section" id="video">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-label">A Special Memory</span>
+
+                    <h2>
+                        A Beautiful <span>Moment</span>
+                    </h2>
+
+                    <p>
+                        Sometimes a moment is worth more than a thousand words.
+                    </p>
+                </div>
+
+
+                <div class="video-wrapper reveal-scale">
+
+                    <div class="video-glow"></div>
+
+                    <div class="video-card">
+
+                        <div class="video-top-line">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <video
+                            id="birthdayVideo"
+                            controls
+                            preload="metadata"
+                            poster="tapati.jpg"
+                            playsinline
+                        >
+                            <source src="tapati-video.mp4" type="video/mp4">
+                            Your browser does not support the video element.
+                        </video>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================
+             QUOTES
+        ================================= -->
+
+        <section class="quotes-section section" id="quotes">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-label">Beautiful Words</span>
+
+                    <h2>
+                        Words Worth <span>Keeping</span>
+                    </h2>
+
+                    <p>
+                        A few little words for someone truly special.
+                    </p>
+                </div>
+
+
+                <div class="quotes-grid">
+
+                    <article class="quote-card reveal">
+                        <span class="quote-mark">“</span>
+                        <p>
+                            Some people make life brighter just by being part of it.
+                        </p>
+                        <span class="quote-line"></span>
+                    </article>
+
+
+                    <article class="quote-card reveal-scale">
+                        <span class="quote-mark">“</span>
+                        <p>
+                            A beautiful heart creates beautiful moments.
+                        </p>
+                        <span class="quote-line"></span>
+                    </article>
+
+
+                    <article class="quote-card reveal">
+                        <span class="quote-mark">“</span>
+                        <p>
+                            Happiness looks better when shared with special people.
+                        </p>
+                        <span class="quote-line"></span>
+                    </article>
+
+
+                    <article class="quote-card reveal-left">
+                        <span class="quote-mark">“</span>
+                        <p>
+                            Keep smiling, because your smile makes the world a little more beautiful.
+                        </p>
+                        <span class="quote-line"></span>
+                    </article>
+
+
+                    <article class="quote-card reveal-right">
+                        <span class="quote-mark">“</span>
+                        <p>
+                            May your day be filled with joy, happiness, and countless reasons to smile.
+                        </p>
+                        <span class="quote-line"></span>
+                    </article>
+
+
+                    <article class="quote-card reveal-scale">
+                        <span class="quote-mark">“</span>
+                        <p>
+                            Stay happy, stay wonderful, stay exactly the way you are.
+                        </p>
+                        <span class="quote-line"></span>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================
+             SPECIAL MESSAGE
+        ================================= -->
+
+        <section class="message-section section" id="message">
+
+            <div class="container">
+
+                <div class="message-card reveal-scale">
+
+                    <div class="message-decoration" aria-hidden="true">
+                        ♡
+                    </div>
+
+                    <span class="section-label">
+                        From The Heart
+                    </span>
+
+                    <h2>
+                        A Little Message <span>For You</span>
+                    </h2>
+
+                    <div class="message-divider">
+                        <span></span>
+                        <span>♡</span>
+                        <span></span>
+                    </div>
+
+                    <div class="message-text">
+
+                        <p>Dear Tapati,</p>
+
+                        <p>
+                            Today, on 16 December, I simply want to wish you
+                            endless happiness, beautiful moments, and a life
+                            filled with smiles.
+                        </p>
+
+                        <p>
+                            You are truly special, and this small website is
+                            made with warm wishes just for you.
+                        </p>
+
+                        <p>
+                            May every day bring you peace, joy, and countless
+                            reasons to smile.
+                        </p>
+
+                        <p class="message-ending">
+                            Happy Birthday, Tapati.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================
+             FINAL SURPRISE
+        ================================= -->
+
+        <section class="surprise-section section" id="surprise">
+
+            <div class="surprise-background" aria-hidden="true">
+                <span class="surprise-circle circle-one"></span>
+                <span class="surprise-circle circle-two"></span>
+            </div>
+
+            <div class="container">
+
+                <div class="surprise-content reveal-scale">
+
+                    <span class="section-label">
+                        One Last Thing
+                    </span>
+
+                    <h2>
+                        One Last <span>Wish</span>
+                    </h2>
+
+                    <p>
+                        Because one birthday wish is never enough.
+                    </p>
+
+                    <button
+                        class="surprise-button"
+                        id="surpriseButton"
+                        type="button"
+                    >
+                        <span>Click Here</span>
+                        <span class="heart-symbol">♡</span>
+                    </button>
+
+
+                    <div
+                        class="final-message"
+                        id="finalMessage"
+                        aria-hidden="true"
+                    >
+
+                        <div class="final-heart">
+                            ♡
+                        </div>
+
+                        <h3>
+                            Happy Birthday, Tapati
+                        </h3>
+
+                        <p>
+                            Wishing you happiness, success, smiles,
+                            and beautiful moments always.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div
+                class="confetti-container"
+                id="confettiContainer"
+                aria-hidden="true"
+            ></div>
+
+            <div
+                class="heart-burst"
+                id="heartBurst"
+                aria-hidden="true"
+            ></div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================================
+         FOOTER
+    ================================= -->
+
+    <footer class="site-footer">
+
+        <div class="container footer-content">
+
+            <p>
+                Made with warm wishes for Tapati <span>♡</span>
+            </p>
+
+            <span class="footer-date">
+                16 December
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================================
+         BACK TO TOP
+    ================================= -->
+
+    <button
+        class="back-to-top"
+        id="backToTop"
+        type="button"
+        aria-label="Back to top"
+    >
+        ↑
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
